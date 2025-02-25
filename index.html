@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfólio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        .about, .projects, .contact {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .about img {
+            max-width: 100px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+
+        .projects .project {
+            background-color: #f9f9f9;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Meu Portfólio</h1>
+    <p>Bem-vindo ao meu portfólio online!</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#about">Sobre Mim</a></li>
+        <li><a href="#projects">Projetos</a></li>
+        <li><a href="#contact">Contato</a></li>
+    </ul>
+</nav>
+
+<div class="container">
+    <section id="about" class="about">
+        <h2>Sobre Mim</h2>
+        <img src="https://via.placeholder.com/100" alt="Foto de perfil">
+        <p>Olá! Sou um desenvolvedor web apaixonado por tecnologia e design. Adoro criar websites e soluções criativas que ajudam a melhorar a experiência do usuário. Tenho experiência em HTML, CSS, JavaScript e frameworks como React e Vue.js.</p>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Meus Projetos</h2>
+        <div class="project">
+            <h3>Projeto 1</h3>
+            <p>Descrição do projeto. Um site responsivo desenvolvido com HTML, CSS e JavaScript.</p>
+        </div>
+        <div class="project">
+            <h3>Projeto 2</h3>
+            <p>Descrição do projeto. Aplicação web com React que permite aos usuários interagir de forma dinâmica.</p>
+        </div>
+        <div class="project">
+            <h3>Projeto 3</h3>
+            <p>Descrição do projeto. E-commerce simples usando Node.js no backend e MongoDB no banco de dados.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contato</h2>
+        <p>Gostou do meu trabalho? Vamos conversar! Você pode me encontrar nas redes sociais ou enviar um e-mail para:</p>
+        <p><strong>email@dominio.com</strong></p>
+        <p>Ou siga-me nas redes sociais:</p>
+        <ul>
+            <li><a href="https://www.linkedin.com" target="_blank">LinkedIn</a></li>
+            <li><a href="https://github.com" target="_blank">GitHub</a></li>
+        </ul>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2025 Meu Portfólio</p>
+</footer>
+
+</body>
+</html>
